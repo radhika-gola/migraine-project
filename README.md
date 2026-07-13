@@ -1,9 +1,9 @@
 Migraine Occurrence Prediction Using Wearable Lifestyle Data
 
-#1 Migraine Lifestyle Trigger Analysis
+# 1 Migraine Lifestyle Trigger Analysis
 EDA project analyzing which daily lifestyle habits are associated with migraine occurrence and severity.
 
-## Dataset
+# Dataset
 11,879 daily logs from wearable devices across 100 users. Features: sleep hours, mood, stress, hydration, screen time.
 
 ## Key Findings
@@ -19,7 +19,7 @@ Python, pandas, matplotlib, seaborn
 - `migraine_eda.ipynb` — full analysis notebook
 - `data/` — dataset
 
-#2 Migraine Prediction - ML Classification Project
+# 2 Migraine Prediction - ML Classification Project
 A end-to-end machine learning project predicting migraine occurrence from daily lifestyle data.
 
 ## Project Structure
