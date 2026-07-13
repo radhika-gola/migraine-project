@@ -1,33 +1,33 @@
-Migraine Occurrence Prediction Using Wearable Lifestyle Data
+# Migraine Occurrence Prediction Using Wearable Lifestyle Data
 
-# 1 Migraine Lifestyle Trigger Analysis
+## 1. Migraine Lifestyle Trigger Analysis
 EDA project analyzing which daily lifestyle habits are associated with migraine occurrence and severity.
 
-# Dataset
+### Dataset
 11,879 daily logs from wearable devices across 100 users. Features: sleep hours, mood, stress, hydration, screen time.
 
-## Key Findings
+### Key Findings
 - Hydration is the strongest trigger: drops from 2.88 to 2.53 on migraine days
 - Clear dose-response pattern: sleep and hydration worsen as severity increases
 - Migraines peak on Mondays: likely due to weekend sleep disruption
 - Stress shows minimal day-level difference (contradicts common "assumption")
 
-## Tools
+### Tools
 Python, pandas, matplotlib, seaborn
 
-## Project Structure
+### Project Structure
 - `migraine_eda.ipynb` — full analysis notebook
 - `data/` — dataset
 
-# 2 Migraine Prediction - ML Classification Project
+## 2 Migraine Prediction - ML Classification Project
 A end-to-end machine learning project predicting migraine occurrence from daily lifestyle data.
 
-## Project Structure
+### Project Structure
 - `migraine_eda.ipynb` — Exploratory Data Analysis
 - `migraine_classification.ipynb` — ML Classification Modeling
 - `data/migraine_dataset.csv` — Dataset
 
-## Key Findings
+### Key Findings
 
 **EDA:**
 - Hydration is the strongest lifestyle predictor of migraine occurrence
@@ -40,14 +40,14 @@ A end-to-end machine learning project predicting migraine occurrence from daily 
 - Sleep hours and previous day's sleep are the next strongest predictors
 - Stress level shows minimal predictive contribution across all stress features
 
-## Models Compared
+### Models Compared
 | Model | Accuracy |
 |---|---|
 | Logistic Regression (baseline) | 61% |
 | Random Forest (untuned) | 58% |
 | Random Forest (tuned, max_depth=5) | 62% |
 
-## Tech Stack
+### Tech Stack
 Python, pandas, numpy, scikit-learn, matplotlib
 
 ## Conclusion
