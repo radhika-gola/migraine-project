@@ -1,5 +1,6 @@
-#1 Migraine Lifestyle Trigger Analysis
+Migraine Occurrence Prediction Using Wearable Lifestyle Data
 
+#1 Migraine Lifestyle Trigger Analysis
 EDA project analyzing which daily lifestyle habits are associated with migraine occurrence and severity.
 
 ## Dataset
@@ -8,8 +9,8 @@ EDA project analyzing which daily lifestyle habits are associated with migraine 
 ## Key Findings
 - Hydration is the strongest trigger: drops from 2.88 to 2.53 on migraine days
 - Clear dose-response pattern: sleep and hydration worsen as severity increases
-- Migraines peak on Mondays — likely due to weekend sleep disruption
-- Stress shows minimal day-level difference (contradicts common assumption)
+- Migraines peak on Mondays: likely due to weekend sleep disruption
+- Stress shows minimal day-level difference (contradicts common "assumption")
 
 ## Tools
 Python, pandas, matplotlib, seaborn
@@ -19,7 +20,6 @@ Python, pandas, matplotlib, seaborn
 - `data/` — dataset
 
 #2 Migraine Prediction - ML Classification Project
-
 A end-to-end machine learning project predicting migraine occurrence from daily lifestyle data.
 
 ## Project Structure
